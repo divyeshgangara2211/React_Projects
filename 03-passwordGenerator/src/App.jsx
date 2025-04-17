@@ -12,7 +12,7 @@ function App() {
   const [password , setPassword] = useState("") ;
 
   const passwordRef = useRef(null);
-
+ 
   const passwordGenerator = useCallback( () => {  // It is responsible for run as well as memorizationa and put in cache.
     let pass = "" ;
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"  ;
@@ -127,44 +127,3 @@ function App() {
 }
 
 export default App 
-
-{/* <div className='flex items-center justify-center h-screen'>
-      <div className="flex-col justify-center text-center">
-
-        <h1 className="text-5xl text-center text-white my-3">Password Generator</h1>
-
-        <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-700'> 
-
-          <div className='relative mb-4 text-white'>
-            <input 
-              type="text"
-              value={password}
-              className='outline-none w-full py-2 px-3 pr-20 rounded-lg'
-              placeholder='Password'
-              readOnly
-            />
-
-            <button 
-              className='absolute right-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white px-3 py-1 rounded hover:bg-blue-600'
-            >
-              Copy
-            </button>
-            
-          </div>
-          
-          <div className='flex text-sm gap-x-2'>
-            <div className='flex items-center gap-x-1'>
-              <input  
-              type="range"
-              min={6}
-              max={100}
-              value={length}
-              className='bg-white cursor-pointer'
-              onChange={ (e) => {setLength(e.target.value)}} 
-              />
-              <label>Length: {length}</label>
-            </div>
-          </div>
-        </div>
-      </div>  
-</div>  */}
