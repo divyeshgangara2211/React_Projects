@@ -9,11 +9,15 @@ Currently, two official plugins are available:
 
 
 
+
+
 💱 Currency Converter — ReactJS
+
 
 
 A dynamic and real-time Currency Converter built with ReactJS, using live exchange rates from a powerful API.
 No hardcoded values — just fast, accurate conversions with smooth performance.
+
 
 🚀 Key Features
 
@@ -32,6 +36,7 @@ No hardcoded values — just fast, accurate conversions with smooth performance.
 🧩 Responsive design with smooth scroll for dropdowns
 
 
+
 🧠 What I Learned
 
 How to fetch and use live API data for real-world applications
@@ -43,6 +48,8 @@ Managing efficient re-renders and scrollable UI for long lists
 Implementing swap logic in a clean and reusable way
 
 Creating modular components like InputBox, App.jsx, etc.
+
+
 
 🛠 Tech Stack
 
