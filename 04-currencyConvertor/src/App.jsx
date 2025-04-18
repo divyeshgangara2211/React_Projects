@@ -4,7 +4,6 @@ import useCurrencyInfo from './hooks/useCurrencyInfo';
 import backgroundImage from './assets/CurrencyConverterImage.jpg';
 
 
-
 function App() {
 
   const [amount , setAmount] = useState(0)
@@ -46,11 +45,12 @@ const swap = () => {
 
   return (
     <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-black"
         style={{
             backgroundImage: `url(${backgroundImage})`,
         }}
-    >
+    > 
+            
         <div className="w-full">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
