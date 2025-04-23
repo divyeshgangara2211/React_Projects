@@ -1,12 +1,73 @@
-# React + Vite
+# 🌐 React Router Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern single-page application (SPA) showcasing **React Router v6** implementation with dynamic routing, protected routes, and responsive navigation.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Dynamic routing with React Router v6
+- 🔄 Nested routes and layouts
+- 👤 Dynamic user profiles with URL parameters
+- 🌐 GitHub API integration
+- 🎨 Tailwind CSS styling
+- 📱 Responsive navigation
+- 🔗 Custom Link components
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** 18+
+- **React Router** v6
+- **Tailwind CSS**
+- **Vite**
+- **GitHub API**
+
+## 🏃‍♂️ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/divyeshgangera2211/React_Projects.git
+
+# Navigate to project
+cd 04-ReactRouter
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── Header/
+│   ├── Footer/
+│   ├── Home/
+│   ├── AboutUs/
+│   ├── ContactUs/
+│   ├── User/
+│   └── Github/
+└── main.jsx
+```
+
+## 📝 Key Learnings
+
+- Implementing nested routes with React Router v6
+- Managing layout components with Outlet
+- Handling dynamic route parameters
+- Creating responsive navigation with React Router
+- Integrating external APIs (GitHub)
+- Using Tailwind CSS for modern styling
+
+## 🔗 Routes
+
+- `/` - Home page
+- `/about` - About page
+- `/contact` - Contact form
+- `/user/:userid` - Dynamic user profiles
+- `/github` - GitHub integration
+
+## 👥 Contributing
+
+Feel free to open issues and pull requests for any improvements!
