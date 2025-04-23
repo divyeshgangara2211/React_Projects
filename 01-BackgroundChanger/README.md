@@ -34,5 +34,7 @@ An interactive and fun web app built using **ReactJS** that changes the backgrou
 ## 📦 Installation
 
 ```bash
+git clone https://github.com/divyeshgangara2211/React_Projects.git
+cd BackgroundChanger
 npm install
 npm run dev
