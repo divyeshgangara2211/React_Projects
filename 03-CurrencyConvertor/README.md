@@ -1,67 +1,57 @@
-# React + Vite
+# 💱 Real-Time Currency Converter (ReactJS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **sleek, real-time currency converter** built with **ReactJS**, designed for accuracy and usability. Features a live currency API, custom hooks, a responsive UI, and smooth interactivity — perfect for learning real-world app structure and performance handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
+- 🔄 **Live API Integration**  
+  Fetches up-to-date exchange rates from a powerful currency API — no hardcoded values.
 
-💱 Real-Time Currency Converter with ReactJS
+- 🪝 **Custom React Hook (`useCurrencyInfo`)**  
+  A clean, reusable hook to fetch and manage currency data.
 
+- 🔁 **Swap Functionality**  
+  Instantly swap "From" and "To" currencies and update values on the fly.
 
-A sleek and powerful currency converter built using ReactJS, with live exchange rate updates, custom hooks, and modern UI.
+- 📦 **Reusable Components**  
+  Modular `InputBox` handles both currency inputs with prop-based control.
 
-🚀 Features
+- ⚡ **Optimized for Performance**  
+  Handles long currency lists and UI updates smoothly.
 
-🔄 Live API Integration
-No hardcoded values — fetches real-time exchange rates from a powerful currency API.
+- 📱 **Responsive & Modern UI**  
+  Built with Tailwind CSS and a glassmorphism-inspired aesthetic.
 
-🪝 Custom React Hook (useCurrencyInfo)
-Clean, reusable hook to fetch and manage currency data.
+---
 
-💡 Reusable Components
-InputBox component handles both currency fields with full prop-based control.
+## 🧠 What I Learned
 
-🔁 Swap Functionality
-Easily swap "From" and "To" currencies and sync amounts instantly.
+- ✅ Fetching and managing live JSON APIs
+- ✅ Building and using custom React hooks
+- ✅ Managing app state with `useState` and `useEffect`
+- ✅ Debugging and optimizing real-world app performance
+- ✅ End-to-end deployment: from local dev → GitHub → GitHub Pages
 
-⚡ Optimized for Performance
-Handles large currency lists efficiently with smooth rendering.
+---
 
-📱 Responsive UI with Tailwind CSS
-Clean glassmorphism-inspired design that adapts to all screen sizes.
+## 🛠️ Tech Stack
 
-🧠 What I Learned
+- **ReactJS**
+- **JavaScript**
+- **React Hooks** (`useState`, `useEffect`)
+- **Tailwind CSS**
+- **Currency Exchange API**
+- **Vite** for fast dev builds
+- **GitHub Pages** for deployment
 
-Working with dynamic JSON APIs
+---
 
-Creating and using custom React hooks
+## 📦 Getting Started
 
-Clean state management using useState and useEffect
-
-Debugging and optimizing real-world apps
-
-Full development cycle: VS Code → GitHub → GitHub Pages
-
-🛠️ Tech Stack
-
-⚛ ReactJS
-
-🖥️ JavaScript
-
-🪝 React Hooks
-
-🌐 Currency API
-
-🎨 Tailwind CSS
-
-🚀 GitHub Pages (for deployment)
-
-
-
-💬 Feedback & Collaboration
-Have ideas or want to collaborate? Open to feedback, improvements, and cool collabs!
-
-“Code it. Break it. Fix it. Learn deeply — that’s the real dev journey.”
+```bash
+git clone https://github.com/divyeshgangara2211/React_Projects.git
+cd React_Projects/03-CurrencyConvertor
+npm install
+npm run dev
