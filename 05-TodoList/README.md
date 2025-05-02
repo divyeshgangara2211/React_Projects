@@ -67,10 +67,15 @@ src/
 ├── components/
 │   ├── TodoForm.jsx         # Input form to add/edit todos
 │   ├── TodoItem.jsx         # Individual todo item with actions
-├── context/
-│   └── TodoContext.jsx      # Global state using Context API
-├── App.jsx
-└── main.jsx
+│   └── index.js             # Export components from a single file
+├── contexts/
+│   ├── TodoContext.js       # Global state using Context API
+│   └── index.js             # Export context from a single file
+├── App.jsx                  # Root component containing the app structure
+├── main.jsx                 # Entry point, renders <App /> into the DOM
+├── App.css                  # Component-specific styling
+├── index.css                # Global styles
+
 
 
 ## 🏃‍♂️ Quick Start
