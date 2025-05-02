@@ -4,29 +4,46 @@ A collection of React.js projects 🌐💻, showcasing various front-end develop
 
 ## 📂 Projects List
 
-1. **BgChanger Project**
-   - Dynamic background color changer
-   - React state management
-   - Interactive UI components
+### 1. **BgChanger Project**
+- 🎨 Dynamic background color changer  
+- ⚙️ React state management  
+- 🖱️ Interactive UI components  
 
-2. **Password Generator**
-   - Customizable password generation
-   - Copy to clipboard functionality
-   - Length and character type controls
-   - Password strength indicator
+---
 
-3. **Currency Converter**
-   - Real-time currency conversion
-   - External API integration
-   - Custom hooks implementation
-   - User-friendly interface
+### 2. **Password Generator**
+- 🔐 Customizable password generation  
+- 📋 Copy to clipboard functionality  
+- 🎛️ Length and character type controls  
+- 📶 Password strength indicator  
 
-4. **React Router Project**
-   - Dynamic routing with React Router v6
-   - Protected routes implementation
-   - GitHub API integration
-   - Responsive navigation
-   - Tailwind CSS styling
+---
+
+### 3. **Currency Converter**
+- 💱 Real-time currency conversion  
+- 🌐 External API integration  
+- ⚓ Custom hooks implementation  
+- 🧭 User-friendly interface  
+
+---
+
+### 4. **React Router Project**
+- 🔁 Dynamic routing with React Router v6  
+- 🔒 Protected routes implementation  
+- 👤 Dynamic user profiles with URL params  
+- 🧪 GitHub API integration  
+- 📱 Responsive navigation  
+- 🎨 Tailwind CSS styling  
+
+---
+
+### 5. **Advanced Todo List**
+- ✅ Add, edit, delete todos with real-time state updates  
+- 💾 Persistent storage using `localStorage`  
+- 🧠 Global state via Context API  
+- ✍️ Business logic focused (e.g., Twitter/Youtube-like inputs)  
+- 📵 Offline-safe: Data remains even after refresh/close  
+- 📱 Responsive layout with core logic emphasis  
 
 
 ## 🛠️ Tech Stack
