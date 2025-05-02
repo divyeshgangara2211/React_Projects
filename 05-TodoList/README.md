@@ -61,20 +61,21 @@ Contributions, suggestions, or improvements are welcome!
 Feel free to open an issue or submit a pull request.
 
 
-# 📂 Project Structure
-
 src/
-├── components/
+├── components/              # Reusable UI components
 │   ├── TodoForm.jsx         # Input form to add/edit todos
 │   ├── TodoItem.jsx         # Individual todo item with actions
 │   └── index.js             # Export components from a single file
-├── contexts/
-│   ├── TodoContext.js       # Global state using Context API
+│
+├── contexts/                # Context API for global state
+│   ├── TodoContext.js       # Todo context logic and provider
 │   └── index.js             # Export context from a single file
-├── App.jsx                  # Root component containing the app structure
-├── main.jsx                 # Entry point, renders <App /> into the DOM
+│
+├── App.jsx                  # Main app component
+├── main.jsx                 # Entry point to render React app
 ├── App.css                  # Component-specific styling
-├── index.css                # Global styles
+└── index.css                # Global styles
+
 
 
 
